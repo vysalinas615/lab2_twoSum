@@ -33,6 +33,7 @@ public class two_sum
 					System.out.println("Number in array is not allowed to be used twice.");
 					//this doesn't actually work since b and c will eventually be the same
 					//maybe add something to check if they're the same index number but not the same number in the array
+					//okay now it works
 					return result;
 				}
 
@@ -40,7 +41,8 @@ public class two_sum
 				{
 					result[0]=b;
 					result[1]=c;
-					System.out.println("Sum reached with numbers "+num[b]+", and "+num[c]+" since "+num[b]+" + "+num[c]+" = "+sum);
+					System.out.println("The output should be "+"["+result[0]+", "+result[1]+"]. ");
+					System.out.println("Because num["+b+"]"+" + "+"num["+c+"]"+" = "+num[b]+" + "+num[c]+" = "+sum);
 					return result;
 				}
 
