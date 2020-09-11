@@ -30,7 +30,8 @@ public class two_sum
 					result[0]=-1;
 					result[1]=-1;
 					//adds -1 to array to return 
-					System.out.println("Number in array is not allowed to be used twice.");
+					System.out.println("The output should be "+"["+result[0]+", "+result[1]+"].");
+					System.out.println("Because the number in array is not allowed to be used twice.");
 					//this doesn't actually work since b and c will eventually be the same
 					//maybe add something to check if they're the same index number but not the same number in the array
 					//okay now it works
@@ -51,6 +52,7 @@ public class two_sum
 					result[0]=-1;
 					result[1]=-1;
 					System.out.println("Sum not reached ");
+					System.out.println();
 					//return result;
 				}
 			}
