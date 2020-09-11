@@ -51,9 +51,11 @@ public class two_sum
 				{
 					result[0]=-1;
 					result[1]=-1;
-					System.out.println("Sum not reached ");
+					System.out.println("The output should be "+"["+result[0]+", "+result[1]+"].  ");
+					System.out.println("Because a solution could not be found. ");
 					System.out.println();
 					//return result;
+					//I did not return the result here since when I did it would end the program as soon as it couldn't find a solution and it wouldn't go through the whole loop
 				}
 			}
 		}
